@@ -18,7 +18,7 @@
 `code`
 ---
 
-![India](https://images.app.goo.gl/9GocaqTkfWvz3uaH9)
+![Cute Dog](https://images.app.goo.gl/TkAE6GKQauPw4fcJ7)
 
 [CSE 15L WI22](https://ucsd-cse15l-w22.github.io/week/week2/) 
 
