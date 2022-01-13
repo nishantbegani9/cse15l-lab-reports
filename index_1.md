@@ -18,7 +18,7 @@
 `code`
 ---
 
-![Cute Dog](https://images.app.goo.gl/TkAE6GKQauPw4fcJ7)
+![Cute Dog](https://i1.wp.com/topdogtips.com/wp-content/uploads/2014/12/Top-10-Cute-Dog-Breeds-Who-Wins-1.jpg?fit=1000%2C669&ssl=1)
 
 [CSE 15L WI22](https://ucsd-cse15l-w22.github.io/week/week2/) 
 
