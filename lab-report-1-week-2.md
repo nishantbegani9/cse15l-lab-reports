@@ -45,11 +45,11 @@ Some of the commands you can try running are as follows:-
 
 ![Example of Running some of the Commands](RunningCommands.png) 
 
-4. Moving Files with scp 
+**4. Moving Files with scp**
 
 ![Moving the Files](MovingFiles.png) 
 
-5. Setting an SSH Key 
+**5. Setting an SSH Key**
 
 
 
