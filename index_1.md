@@ -1,6 +1,6 @@
-# H1
-## H2
-### H3 
+#   Cute Dog
+---
+
 
 **bold text**
 *italicized text*
