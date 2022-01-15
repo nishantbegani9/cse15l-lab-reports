@@ -53,13 +53,21 @@ The command through which transfer the file from one computer to the other is by
 
 To do this step you will create file, for example, WhereAmI.java using this code -
 
->class WhereAmI{
-  >public static void main(String[] args) {
+>class WhereAmI
+>
+>{
+    >
+  >public static void main(String[] args) 
+  >
+  >{
+      >
     >System.out.println(System.getProperty("os.name"));
     >System.out.println(System.getProperty("user.name"));
     >System.out.println(System.getProperty("user.home"));
     >System.out.println(System.getProperty("user.dir");
+>
   >}
+  >
 >}
 
 Now you will javac and java this and this will give a message. Follwed by this we will run the following command on the client itself - 
@@ -73,15 +81,26 @@ Now you will log in to the server using ssh and use 'ls' command. And, now we wi
 
 **5. Setting an SSH Key** 
 
+Now when we run the scp command, it always asks for the password. To type in the password again and again can be quite frustrating. A solution can be met to the problem if we use the ssh keys which contains a program called the ssh-keygen. 
+What this does it that creates a two new files- the private key and the public key. The public key is copied to a particular location on the server and the private key is copied to a particular location on the client.  
+
+The picture below shows the running of the ssh-keygen program. 
 
 
 ![Setting SSH Key](SettingSSHKey1.png) 
+
+Now what has happend is that both the files have been created in our computer. 
+
+The next step is to copy the public key (stored in a file id_rsa.pub) on the server. To do this we perform the following steps shown the pictures below. 
 
 ![Setting Public Key Part 1](SettingSSHKey2.png) 
 
 ![This is how we set the public key](SettingSSHKey3.png) 
 
+
 **6. Optimizing Remote Control** 
+
+
 
 ![Optimizing the Remote Control for much more efficiency](OptimizingRemoteControl1.png) 
 
