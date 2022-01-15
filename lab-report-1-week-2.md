@@ -100,6 +100,13 @@ The next step is to copy the public key (stored in a file id_rsa.pub) on the ser
 
 **6. Optimizing Remote Control** 
 
+Since, we dont require the password now we can run all the commands in the following way - 
+
+> $ ssh cs15lwi22@ieng6.ucsd.edu "pwd"
+
+We can also run n number of commands in a single lan using a semicolon (this example is shown in the picture below). 
+
+This is how we keep the remote connection smooth and efficient. 
 
 
 ![Optimizing the Remote Control for much more efficiency](OptimizingRemoteControl1.png) 
