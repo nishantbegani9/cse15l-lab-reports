@@ -37,26 +37,29 @@ Now we open a new terminal in VS Code and write a command which looks like -
 Now you will try running some commands. We will run this both on the your computer(known as client) and the remote computer(known as server) by ssh -ing. 
 Some of the commands you can try running are as follows:-
 
-1. cd 
-2. ls 
-3. ls -lat 
-4. ls -a 
-5. dir
+>1. cd 
+>2. ls 
+>3. ls -lat 
+>4. ls -a 
+>5. dir
 
 ![Example of Running some of the Commands](RunningCommands.png) 
 
 **4. Moving Files with scp**
 
-![Moving the Files](MovingFiles.png) 
+![Moving the Files](MovingFiles1.png) 
 
-**5. Setting an SSH Key**
+**5. Setting an SSH Key** 
 
+![Setting SSH Key](SettingSSHKey1.png) 
 
+![Setting Public Key Part 1](SettingSSHKey2.png) 
 
+![This is how we set the public key](SettingSSHKey3.png) 
 
+**6. Optimizing Remote Control** 
 
+![Optimizing the Remote Control for much more efficiency](OptimizingRemoteControl1.png) 
 
-
-
-
+![Example where I signed into ssh without using my password](OptimizingRemoteControl2.png) 
 
