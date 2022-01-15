@@ -45,7 +45,7 @@ Some of the commands you can try running are as follows:-
 
 ![Example of Running some of the Commands](RunningCommands.png) 
 
-**4. Moving Files with scp** 
+**4. Moving Files with 'scp'** 
 
 One of the main steps in working remotely is being able to copy files back and forth between the client and the server. This is the way how we access Google Drive or the Dropbox files n one computer and the other. 
 
