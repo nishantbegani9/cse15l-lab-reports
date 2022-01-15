@@ -56,28 +56,28 @@ To do this step you will create file, for example, WhereAmI.java using this code
 >class WhereAmI
 >
 >{
-    >
+      >
   >public static void main(String[] args) 
   >
   >{
->
-     >
->
+ >
+    >
+ >
     > System.out.println(System.getProperty("os.name"));
->
+ >
     > System.out.println(System.getProperty("user.name"));
->
+ >
     > System.out.println(System.getProperty("user.home"));
->
+ > 
     > System.out.println(System.getProperty("user.dir");
->
->
->
+ >
+ >
+ >
   >}
->
+ >
   >
->
->}
+ >
+ >}
 
 
 Now you will javac and java this and this will give a message. Follwed by this we will run the following command on the client itself - 
