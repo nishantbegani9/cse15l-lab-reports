@@ -61,15 +61,15 @@ To do this step you will create file, for example, WhereAmI.java using this code
   >
   >{
 >
-      >
+     >
 >
-    >System.out.println(System.getProperty("os.name"));
+    > System.out.println(System.getProperty("os.name"));
 >
-    >System.out.println(System.getProperty("user.name"));
+    > System.out.println(System.getProperty("user.name"));
 >
-    >System.out.println(System.getProperty("user.home"));
+    > System.out.println(System.getProperty("user.home"));
 >
-    >System.out.println(System.getProperty("user.dir");
+    > System.out.println(System.getProperty("user.dir");
 >
 >
 >
