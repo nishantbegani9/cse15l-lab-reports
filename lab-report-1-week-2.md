@@ -60,15 +60,25 @@ To do this step you will create file, for example, WhereAmI.java using this code
   >public static void main(String[] args) 
   >
   >{
+>
       >
+>
     >System.out.println(System.getProperty("os.name"));
+>
     >System.out.println(System.getProperty("user.name"));
+>
     >System.out.println(System.getProperty("user.home"));
+>
     >System.out.println(System.getProperty("user.dir");
 >
+>
+>
   >}
+>
   >
+>
 >}
+
 
 Now you will javac and java this and this will give a message. Follwed by this we will run the following command on the client itself - 
 
@@ -111,5 +121,5 @@ This is how we keep the remote connection smooth and efficient.
 
 ![Optimizing the Remote Control for much more efficiency](OptimizingRemoteControl1.png) 
 
-![Example where I signed into ssh without using my password](OptimizingRemoteControl2.png) 
+![Example where I signed into ssh without using my password](SmoothRemoteControl.png) 
 
