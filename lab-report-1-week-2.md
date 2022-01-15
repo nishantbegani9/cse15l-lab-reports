@@ -45,11 +45,35 @@ Some of the commands you can try running are as follows:-
 
 ![Example of Running some of the Commands](RunningCommands.png) 
 
-**4. Moving Files with scp**
+**4. Moving Files with scp** 
+
+One of the main steps in working remotely is being able to copy files back and forth between the client and the server. This is the way how we access Google Drive or the Dropbox files n one computer and the other. 
+
+The command through which transfer the file from one computer to the other is by using 'scp' on the client computer, which without logging into 'ieng6'.  
+
+To do this step you will create file, for example, WhereAmI.java using this code -
+
+>class WhereAmI{
+  >public static void main(String[] args) {
+    >System.out.println(System.getProperty("os.name"));
+    >System.out.println(System.getProperty("user.name"));
+    >System.out.println(System.getProperty("user.home"));
+    >System.out.println(System.getProperty("user.dir");
+  >}
+>}
+
+Now you will javac and java this and this will give a message. Follwed by this we will run the following command on the client itself - 
+
+> scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/ 
+
+This will ask for the password as it asks when we run the ssh command. 
+Now you will log in to the server using ssh and use 'ls' command. And, now we will again javac and java WhereAmI.java. Then you will notice a different location that appears, which mean that you have successfully transfered the file from the client to the server using the 'scp' command. 
 
 ![Moving the Files](MovingFiles1.png) 
 
 **5. Setting an SSH Key** 
+
+
 
 ![Setting SSH Key](SettingSSHKey1.png) 
 
