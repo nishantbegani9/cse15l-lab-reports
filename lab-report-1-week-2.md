@@ -15,8 +15,8 @@ You need to go to the [Visual Studio Code](https://code.visualstudio.com/), and 
 **2. Remotely Connecting the Client to the Server**
 
 This course, CSE 15L, has a course specific CSE account. In here we will learn that how to connect to a remote server over the internet. 
-We need to look up for the course specific account using this link -  
- > https://sdacs.ucsd.edu/~icc/index.php . 
+We need to look up for the [Course Specific Account](https://sdacs.ucsd.edu/~icc/index.php) 
+
 
 Now we open a new terminal in VS Code and write a command which looks like - 
  
