@@ -4,7 +4,7 @@
 
 **1. Installing VS Code**
 
-You need to go to the Visual Studio Code website https://code.visualstudio.com/, and follow the instructions to download and install it on your computer. You can see the option of different versions of the operating system like the OSX and the Windows. 
+You need to go to the [Visual Studio Code](https://code.visualstudio.com/), and follow the instructions to download and install it on your computer. You can see the option of different versions of the operating system like the OSX and the Windows. 
 
 **When you open the VS Code your window will look something like this.**
 
