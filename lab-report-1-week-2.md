@@ -116,10 +116,18 @@ Since, we dont require the password now we can run all the commands in the follo
 
 We can also run n number of commands in a single lan using a semicolon (this example is shown in the picture below). 
 
+Here, I started to save approximately 12 seconds of my time while running because now I didn't have to type my password. 12 seconds also accounts the mistakes a generally used to make while typing out the password. 
+
 This is how we keep the remote connection smooth and efficient. 
 
 
 ![Optimizing the Remote Control for much more efficiency](OptimizingRemoteControl1.png) 
 
 ![Example where I signed into ssh without using my password](SmoothRemoteControl.png) 
+
+Therefore, now the running of the commands was even more pleasant and efficient. The number of key strokes(key clicks + mouse clicks) now decresased by **almost 32-35 keystrokes**. Intially the number of keystrokes were approximately **42- 46** and now it became approximately **8-9** key strokes, which included the pressing of the up arrow for the previous commands and not typing in the passwords, which usually led to a lot of mistakes. 
+
+**Hence, the running became much more efficient and pleasant.**
+
+
 
