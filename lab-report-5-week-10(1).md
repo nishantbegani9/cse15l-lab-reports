@@ -33,3 +33,51 @@ When I ran this command in the terminal I got this result as my output:-
 
 Now, let's look at the two tests with different results. 
 
+The **first** test have chosen is **Test File 194** 
+
+For the  ```test-files/194.md``` given implementation gives the correct output. 
+
+![Test 194](TestFile194.png) 
+
+Here we can see that:- 
+
+My implementation gives ```[]``` for ```test-files/194.md```.
+
+The provided implementation gives ```[url]``` for ```test-files/194.md```.
+
+The actual output should have been ```/url```. 
+
+I think, this happened because the implementation did not deal with a new line ```\n``` character in the method geLinks(). 
+
+![Code Block 1](Code1.png) 
+
+The new cde block can be added after this part of the code. 
+
+***
+
+The **second** test have chosen is **Test File 579**  
+
+For the  ```test-files/579.md``` my implementation gives the correct output.
+
+![Test 579](Diff2.png) 
+
+Here we can see that:-
+
+My implementation gives ```[]``` for ```test-files/579.md```.
+
+The provided implementation gives ```[<url>]``` for ```test-files/579.md```.
+
+
+The actual output should have been empty in accordance with ```579.html.test```
+
+This happened because the other implementation didn't deal the format of the image in the markdownparse. 
+
+The Implementation that can be added to test the existence of ```!``` before the open bracket. 
+
+And, in the situation where ```!``` is present will not be a valid link.  
+
+![Code Block 2](Code2.png) 
+
+The condition suggested above can be implemented after or before the above condition in the image. 
+
+***
